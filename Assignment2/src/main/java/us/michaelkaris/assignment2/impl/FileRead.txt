@@ -1,0 +1,32 @@
+//package us.michaelkaris.assignment2.impl;
+//
+//import us.michaelkaris.assignment2.Sale;
+//import java.util.ArrayList;
+//import java.util.List;
+//import java.io.File;  // Import the File class
+//import java.io.FileNotFoundException;  // Import this class to handle errors
+//import java.util.Arrays;
+//import java.util.Scanner; // Import the Scanner class to read text files
+//
+//public class FileRead {
+//        List<String> docList = new ArrayList<>();
+//        try {
+//            File myObj = new File("C:\\Users\\mikej\\Assignment2\\src\\main\\java\\us\\michaelkaris\\assignment2\\impl\\sales.txt");
+//            Scanner myReader = new Scanner(myObj);
+//            while (myReader.hasNextLine()) {
+//                String data = myReader.nextLine();
+//                docList.add(data);
+////                List<String> elephantList = Arrays.asList(data.split(","));
+////                System.out.println(elephantList);
+//                System.out.println(data);
+//            }
+//            myReader.close();
+//        } catch (FileNotFoundException e) {
+//            System.out.println("An error occurred.");
+//            e.printStackTrace();
+//        }
+////        List<Sale> strings = new ArrayList<>();
+////        String str = "...";
+////        List<String> elephantList = Arrays.asList(str.split(","));
+//        return docList;
+//}
